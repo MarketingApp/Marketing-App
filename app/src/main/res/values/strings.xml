@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="email">Email</string>
+    <string name="add_number">Add number</string>
+    <string name="address">Address</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_hint">dd/MM/yyyy</string>
+    <string name="group">Group</string>
+    <string name="description">Description</string>
+</resources>

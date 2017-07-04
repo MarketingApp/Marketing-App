@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1048362718969",
+    "firebase_url": "https://marketing-app-266d4.firebaseio.com",
+    "project_id": "marketing-app-266d4",
+    "storage_bucket": "marketing-app-266d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048362718969:android:f79c720baef1e772",
+        "android_client_info": {
+          "package_name": "hahoang.marketingmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048362718969-h5i3lr1gth6dgk6nbp23ci3lvhuudf02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hahoang.marketingmessage",
+            "certificate_hash": "16934087ddac75f57de3ec5f958758ff2198eba8"
+          }
+        },
+        {
+          "client_id": "1048362718969-pc7jtcojqiah557vaup4c6ui3ju3dchq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBahy7WhhBsAyMQFtz8P0sscCnMuugkxL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048362718969-pc7jtcojqiah557vaup4c6ui3ju3dchq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
