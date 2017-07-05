@@ -25,4 +25,11 @@
     <dimen name="edit_text_description_height">70dp</dimen>
     <dimen name="add_number_button_height">50dp</dimen>
     <dimen name="add_number_button_margin_top">20dp</dimen>
+    <dimen name="h4_zise">30sp</dimen>
+    <dimen name="edit_text_large_max_width">200dp</dimen>
+    <dimen name="edit_text_large_height">60dp</dimen>
+    <dimen name="edit_text_xlarge_height">100dp</dimen>
+    <dimen name="edit_text_large_width">200dp</dimen>
+    <dimen name="table_row_margin_top">10dp</dimen>
+    <dimen name="search_add_height">50dp</dimen>
 </resources>

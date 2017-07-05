@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/main_fragment_padding_left"
+    android:paddingRight="@dimen/main_fragment_padding_right"
+    android:paddingTop="@dimen/main_fragment_padding_top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/h4_zise" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_large_height"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/edit_text_background"
+        android:maxWidth="@dimen/edit_text_large_max_width"
+        android:paddingLeft="@dimen/edit_text_padding_left"
+        android:textColor="@color/colorEditText"
+        android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_view_margin_top"
+        android:text="@string/number"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/h6_zise" />
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_large_height"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/edit_text_background"
+        android:maxWidth="@dimen/edit_text_large_max_width"
+        android:paddingLeft="@dimen/edit_text_padding_left"
+        android:textColor="@color/colorEditText"
+        android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_view_margin_top"
+        android:text="@string/email"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/h6_zise" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_large_height"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:background="@drawable/edit_text_background"
+        android:maxWidth="@dimen/edit_text_large_max_width"
+        android:paddingLeft="@dimen/edit_text_padding_left"
+        android:textColor="@color/colorEditText"
+        android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_view_margin_top"
+                android:text="@string/address"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/h6_zise" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/edit_text_background"
+                android:minHeight="@dimen/edit_text_large_height"
+                android:paddingLeft="@dimen/edit_text_padding_left"
+                android:textColor="@color/colorEditText"
+                android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+            <ImageView
+                android:id="@+id/iv_choose_location"
+                android:layout_width="@dimen/choose_width"
+                android:layout_height="@dimen/choose_height"
+                android:layout_gravity="center"
+                android:src="@mipmap/icon" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_view_margin_top"
+                android:text="@string/birthday"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/h6_zise" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_marginTop="@dimen/edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/et_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_large_height"
+                android:layout_span="2"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/birthday_hint"
+                android:paddingLeft="@dimen/edit_text_padding_left"
+                android:textColor="@color/colorEditText"
+                android:textColorHint="@color/colorEditTextHint"
+                android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+            <ImageView
+                android:id="@+id/iv_choose_birthday"
+                android:layout_width="@dimen/choose_width"
+                android:layout_height="@dimen/choose_height"
+                android:layout_gravity="center"
+                android:src="@mipmap/icon" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_view_margin_top"
+                android:text="@string/group"
+                android:textColor="@color/titleColor"
+                android:textSize="@dimen/h6_zise" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_marginTop="@dimen/edit_text_margin_top">
+
+            <EditText
+                android:id="@+id/et_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@drawable/edit_text_background"
+                android:editable="false"
+                android:minHeight="@dimen/edit_text_large_height"
+                android:paddingLeft="@dimen/edit_text_padding_left"
+                android:textColor="@color/colorEditText"
+                android:textColorHint="@color/colorEditTextHint"
+                android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+            <ImageView
+                android:id="@+id/iv_choose_group"
+                android:layout_width="@dimen/choose_width"
+                android:layout_height="@dimen/choose_height"
+                android:layout_gravity="center"
+                android:src="@mipmap/icon" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_view_margin_top"
+        android:text="@string/description"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/h6_zise" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_description_height"
+        android:layout_marginTop="@dimen/edit_text_margin_top"
+        android:layout_weight="@integer/edit_text_weight"
+        android:background="@drawable/edit_text_background"
+        android:maxWidth="@dimen/edit_text_large_max_width"
+        android:paddingLeft="@dimen/edit_text_padding_left"
+        android:textColor="@color/colorEditText"
+        android:textColorHint="@color/colorEditTextHint"
+        android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+    <Button
+        android:id="@+id/bt_add_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_number_button_height"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/add_number_button_margin_top"
+        android:background="@drawable/add_number_button"
+        android:text="@string/add_number" />
+</LinearLayout>
+
+    <!--private EditText etName,etPhoneNumber,
+    etEmail,etAddress,etBirthday,etGroups,etDescription;--><!--private Button btAddPhoneNumber;-->

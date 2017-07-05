@@ -14,4 +14,15 @@
     <string name="birthday_hint">dd/MM/yyyy</string>
     <string name="group">Group</string>
     <string name="description">Description</string>
+    <string name="manager_number">Manager Number</string>
+    <string name="add_group">Add Group</string>
+    <string name="manager_groups">Manager Groups</string>
+    <string name="send_message">Send Message</string>
+    <string name="group_name">Group Name</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyArQ9kr8eUO6jm8OLDs-spDnpEnGf_VB7E</string>
+    <string name="no_add">No Address</string>
+    <string name="add_this_addess">Add this address</string>
+    <string name="add_this_address">Add this address</string>
 </resources>

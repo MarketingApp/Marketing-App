@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -66,108 +65,121 @@
             android:textColor="@color/colorEditText"
             android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
 
-        <TextView
+        <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_view_margin_top"
-            android:text="@string/address"
-            android:textColor="@color/titleColor"
-            android:textSize="@dimen/h6_zise" />
+            android:stretchColumns="*">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/edit_text_margin_top"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+            <TableRow>
 
-            <EditText
-                android:id="@+id/et_address"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/edit_text_height"
-                android:layout_weight="@integer/edit_text_weight"
-                android:background="@drawable/edit_text_background"
-                android:paddingLeft="@dimen/edit_text_padding_left"
-                android:textColor="@color/colorEditText"
-                android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_view_margin_top"
+                    android:text="@string/address"
+                    android:textColor="@color/titleColor"
+                    android:textSize="@dimen/h6_zise" />
+            </TableRow>
 
-            <ImageView
-                android:layout_width="@dimen/choose_width"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:src="@mipmap/icon" />
-        </LinearLayout>
+            <TableRow android:layout_marginTop="@dimen/edit_text_margin_top">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_view_margin_top"
-            android:text="@string/birthday"
-            android:textColor="@color/titleColor"
-            android:textSize="@dimen/h6_zise" />
+                <EditText
+                    android:id="@+id/et_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/edit_text_height"
+                    android:layout_span="2"
+                    android:layout_weight="@integer/edit_text_weight"
+                    android:background="@drawable/edit_text_background"
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/edit_text_margin_top"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+                    android:paddingLeft="@dimen/edit_text_padding_left"
+                    android:textColor="@color/colorEditText"
+                    android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
 
-            <EditText
-                android:id="@+id/et_birthday"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/edit_text_height"
-                android:layout_weight="@integer/edit_text_weight"
-                android:background="@drawable/edit_text_background"
-                android:hint="@string/birthday_hint"
-                android:paddingLeft="@dimen/edit_text_padding_left"
-                android:textColor="@color/colorEditText"
-                android:textColorHint="@color/colorEditTextHint"
-                android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+                <ImageView
+                    android:id="@+id/iv_choose_location"
+                    android:layout_width="@dimen/choose_width"
+                    android:layout_height="@dimen/choose_height"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icon" />
+            </TableRow>
 
-            <ImageView
-                android:layout_width="@dimen/choose_width"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:src="@mipmap/icon" />
-        </LinearLayout>
+            <TableRow>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/text_view_margin_top"
-            android:text="@string/group"
-            android:textColor="@color/titleColor"
-            android:textSize="@dimen/h6_zise" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_view_margin_top"
+                    android:text="@string/birthday"
+                    android:textColor="@color/titleColor"
+                    android:textSize="@dimen/h6_zise" />
+            </TableRow>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/edit_text_margin_top"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
+            <TableRow
 
-            <EditText
-                android:id="@+id/et_group"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/edit_text_height"
-                android:layout_weight="@integer/edit_text_weight"
-                android:background="@drawable/edit_text_background"
-                android:editable="false"
-                android:paddingLeft="@dimen/edit_text_padding_left"
-                android:textColor="@color/colorEditText"
-                android:textColorHint="@color/colorEditTextHint"
-                android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+                android:layout_marginTop="@dimen/edit_text_margin_top">
 
-            <ImageView
-                android:layout_width="@dimen/choose_width"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:src="@mipmap/icon" />
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/et_birthday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/edit_text_height"
+                    android:layout_span="2"
+                    android:layout_weight="@integer/edit_text_weight"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/birthday_hint"
+                    android:paddingLeft="@dimen/edit_text_padding_left"
+                    android:textColor="@color/colorEditText"
+                    android:textColorHint="@color/colorEditTextHint"
+                    android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+                <ImageView
+                    android:id="@+id/iv_choose_birthday"
+                    android:layout_width="@dimen/choose_width"
+                    android:layout_height="@dimen/choose_height"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icon" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_view_margin_top"
+                    android:text="@string/group"
+                    android:textColor="@color/titleColor"
+                    android:textSize="@dimen/h6_zise" />
+            </TableRow>
+
+            <TableRow
+
+                android:layout_marginTop="@dimen/edit_text_margin_top">
+
+                <EditText
+                    android:id="@+id/et_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/edit_text_height"
+                    android:layout_span="2"
+                    android:layout_weight="@integer/edit_text_weight"
+                    android:background="@drawable/edit_text_background"
+                    android:editable="false"
+                    android:paddingLeft="@dimen/edit_text_padding_left"
+                    android:textColor="@color/colorEditText"
+                    android:textColorHint="@color/colorEditTextHint"
+                    android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+                <ImageView
+                    android:id="@+id/iv_choose_group"
+                    android:layout_width="@dimen/choose_width"
+                    android:layout_height="@dimen/choose_height"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icon" />
+            </TableRow>
+        </TableLayout>
 
         <TextView
             android:layout_width="match_parent"

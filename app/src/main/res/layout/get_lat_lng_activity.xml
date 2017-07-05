@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorTrans"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/et_search_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:background="@drawable/edit_text_background_rec"
+            android:padding="@dimen/edit_text_padding_left"
+            android:textColor="@color/colorEditText"
+            android:minHeight="@dimen/edit_text_height"
+            android:textCursorDrawable="@drawable/add_number_edit_text_cursor_color" />
+
+        <ImageView
+            android:id="@+id/iv_search_button"
+            android:layout_width="@dimen/choose_width"
+            android:layout_height="@dimen/choose_height"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/icon" />
+    </LinearLayout>
+</RelativeLayout>

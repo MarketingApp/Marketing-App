@@ -6,4 +6,5 @@ package hahoang.marketingmessage.config;
 
 public class Config {
     public static String PREF="pref";
+    public static String HOST="";
 }

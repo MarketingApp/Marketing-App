@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#1d9ad6</color>
+    <color name="colorPrimaryDark">#1a86ba</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
     <color name="titleColor">#026122</color>
     <color name="colorEditTextBorder">#a7a7a7</color>
+    <color name="colorEditTextBorderRec">#dcdcdc</color>
     <color name="colorCursorEditText">#a7a7a7</color>
     <color name="colorEditTextHint">#dfdfdf</color>
     <color name="colorAddNumberButton">#ff0099</color>
-    <color name="colorAddNumberButtonNormal">#3ad261</color>
-    <color name="colorAddNumberButtonPress">#2ca34b</color>
+    <color name="colorAddNumberButtonNormal">#ff4000</color>
+    <color name="colorAddNumberButtonPress">#df3801</color>
     <color name="colorEditText">#000000</color>
+    <color name="colorIcon">#c70609</color>
+    <color name="colorTrans">#6cffffff</color>
 </resources>
